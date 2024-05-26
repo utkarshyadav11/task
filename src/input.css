@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .swiper-pagination-bullet {
+        @apply border-2 border-white w-2.5 h-2.5 bg-transparent;
+    }
+    .swiper-pagination-bullet-active {
+        @apply bg-white border-white;
+    }
+
+    .sidebar-open {
+        @apply border-0;
+      }
+}
